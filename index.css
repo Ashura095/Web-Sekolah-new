@@ -1,0 +1,110 @@
+.container-fluid {
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  .container-fluid .navbar {
+    background-color: #ffffff;
+    width: 85%;
+    position: absolute;
+    top: 5vh;
+    z-index: 1000;
+    border-radius: 20px;
+    padding: 1vh 5vw;
+    left: 8vw;
+  }
+
+  .container-fluid .navbar .navbar-brand img {
+    width: 230px;
+    height: 80.41px;
+  }
+  
+  .container-fluid .navbar-expand-lg .navbar-nav .nav-item {
+    margin: 0 2vw;
+  }
+  
+  .container-fluid .navbar-expand-lg .navbar-nav .nav-link {
+    color: #000000;
+    font-size: 25px;
+  }
+  
+  .container-fluid .navbar-expand-lg .navbar-nav .form-inline .search {
+    background-color: #e8e8e8;
+
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 1vh 2vw;
+    height: 40px;
+  }
+  
+  .container-fluid .navbar-expand-lg .navbar-nav .form-inline .btn-search {
+   
+    cursor: pointer;
+    margin: 0 1vw;
+  }
+  
+  .carousel-background-1 {
+    background: url("asset/Smkn\ 2.webp") no-repeat;
+    height: 95vh;
+    background-size: 100% 100%;
+  }
+
+  
+  .carousel-inner {
+    text-transform: capitalize;
+  }
+  
+  .carousel .carousel-inner .carousel-item .wrapper {
+    background: linear-gradient(
+      247.3deg,
+      rgba(5, 115, 171, 0.6) 0%,
+      rgba(16, 77, 236, 0.6) 99.74%
+    );
+    min-height: 95vh;
+    max-height: 95vh;
+    padding: 25vh 20vw;
+    color: #ffffff;
+  }
+  
+  .carousel .carousel-inner .carousel-item .wrapper h1 {
+    width: 35vw;
+    line-height: 45px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+  }
+
+  h2{
+    text-align: center;
+    margin: 0px 0px 70px ;
+    font-size: 50px;
+    font-weight: 100px;
+    font-family: "Poppins", sans-serif;
+    text-transform: capitalize;
+  }
+  .visi{
+    border: slategrey;
+    
+  }
+  .feature-description{
+    text-align: center;
+    font-family: sans-serif;
+    
+  }
+  .container-fluid .feature {
+    padding: 10vh 10vw;
+  }
+  
+  .container-fluid .feature .row .feature-item {
+    padding: 0 5vw;
+  }
+  
+  .container-fluid .feature .row .feature-item .feature-content .feature-title {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    font-weight: 600;
+    color: #0573ab;
+    margin: 4vh 0;
+    line-height: 30px;
+    
+  }
