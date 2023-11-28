@@ -1,0 +1,215 @@
+body {
+    background-image: url(asset/Smkn\ 2.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .container-fluid {
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  .container-fluid .navbar {
+    background-color: #faf5f5;
+    width: 85%;
+    position: absolute;
+    top: 5vh;
+    z-index: 1000;
+    border-radius: 20px;
+    padding: 1vh 5vw;
+    left: 8vw;
+  }
+  .navbar img {
+    margin-right: 300px;
+  }
+  .container-fluid .navbar .navbar-brand img {
+    width: 200px;
+    height: 80.41px;
+  }
+  
+  .container-fluid .navbar-expand-lg .navbar-nav .nav-item {
+    margin: 0 1vw;
+  }
+  
+  .container-fluid .navbar-expand-lg .navbar-nav .nav-link {
+    color: rgb(36, 35, 35);
+    font-size: 30px;
+  }
+  
+  .container-fluid .navbar-expand-lg .navbar-nav .form-inline .search {
+    background-color: #e8e8e8;
+    border: none;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 1vh 2vw;
+    height: 40px;
+  }
+  
+  .container-fluid .navbar-expand-lg .navbar-nav .form-inline .btn-search {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin: 0 1vw;
+  }
+  input[type="text"],
+  select,
+  textarea {
+    width: 70%;
+    padding: 12px;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-top: 17px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type="submit"] {
+    background-color: #04aa6d;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+  
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 30px;
+    background-color: #8ab4ae;
+    padding: 20px;
+    margin-bottom: 200px;
+    margin-top: 250px;
+    background: linear-gradient(135deg, #3498db, #9b59b6);
+  
+  
+  }
+  .flex{
+    display: inline;
+  }
+  .flex h4 h2{
+    display:grid;
+  }
+  form {
+    width: 340px;
+    height: 540px;
+    background: #fff3f3;
+    border-radius: 20px;
+    padding: 20px 30px 30px;
+    max-width: calc(100vw - 40px);
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    position: relative;
+    margin-left: 10%;
+    margin-top: 50px;
+  }
+  .row {
+    align-items: center;
+    display: flex;
+    margin: 12px;
+    
+  
+  }
+  
+  #sosmed {
+    margin-top: 50px;
+    background-color: #d3e0e0;
+    border: none;
+    border-radius: 10px;
+    margin-left: 10%;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    padding: 50px;
+    margin-bottom: 200px;
+    height: 250px;
+    padding-bottom: 300px;
+    
+  }
+  footer h1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 15px;
+    padding: 25px 0px 0px 10px;
+  }
+  
+  h4 {
+    margin-bottom: 0.9375rem;
+    font-size: 1.5rem;
+  }
+  
+  p {
+    font-size: 1rem;
+    line-height: 1.3rem;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 20px 20px 20px 20px;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 0.625rem;
+  }
+  
+  ul li a {
+    color: #333;
+    font-size: 1rem;
+    transition: 0.3s all ease;
+    text-decoration: none;
+  }
+  
+  ul li i {
+    color: #6faaff;
+  }
+  
+  ul li a:hover {
+    color: #6faaff;
+    margin-left: 0.2rem;
+  }
+  
+  ul.social-icons {
+    display: none;
+    column-gap: 0.625rem;
+  }
+  
+  .social-icons i {
+    color: #6faaff;
+    
+  }
+  
+  ul.social-icons li {
+    margin-bottom: 0rem;
+  }
+  
+  ul.social-icons li a {
+    display: grid;
+    place-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 100%;
+    border: 1.5px solid #6faaff;
+  }
+  
+  ul.social-icons li:hover a {
+    background-color: #6faaff;
+    animation: shake 0.3s ease;
+    margin-left: 0;
+  }
+  
+  ul.social-icons li:hover i {
+    color: #fff;
+  }
+  
+  footer {
+    color: #333;
+    background-color: #e6f0ff;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+    text-decoration: none;
+    margin-top: 5%;
+  }
